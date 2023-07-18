@@ -1,0 +1,69 @@
+.app-header {
+  background-color: #99A3A4;
+  padding: 10px;
+}
+
+.app-header--title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  padding: 0.5%;
+}
+
+.hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.table-content {
+  max-width: 1000px;
+  max-height: 1400px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  padding-top: 30px;
+  float : left;
+}
+
+.table-content table .dash-cell-value {
+  white-space: pre-wrap; /* Preserve line breaks */
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  
+}
+
+.article-details h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left:400px;
+  font-size: 24px;
+}
+.article-details h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left:400px;
+  font-size: 20px;
+}
+.article-details p {
+  margin-bottom: 10px;
+  padding: 3px;
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.article-details .author {
+  font-style: italic;
+}
